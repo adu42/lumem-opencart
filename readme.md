@@ -1,16 +1,16 @@
-Opencart整合进lumem
+##Opencart整合进lumem
 
 ##重新规划路径
     controller -> /app/Http/Controllers
     model -> /app/Models
     System -> /app/System
     routes -> /routes/web.php
-    views -> /resources/views
+    views -> /resources/views/主题名
     js -> /resources/assets/
     css -> /resources/assets/
     languages -> /resources/languages
-    js/css/images(系统) -> /public/static/
-    images(商品图) -> /public/media/
+    js/css/images(系统) -> /public/static/主题名
+    images(商品图) -> /public/media/ 或者网络图来源
 
 ###剩下需要做的事情：
 1. controller快捷的取值方式，不打算改变opencart的子控制器路由方式，保持opencart的轻便，规范类名和文件名统一使用驼峰命名规则。
